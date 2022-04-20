@@ -26,7 +26,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.horizontal(left:const Radius.circular(20) , right:Radius.circular(20) )),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.horizontal(left:const Radius.circular(40) , right:Radius.circular(40) )),
           title: Text("JEENISo project"),
         
           actions: <Widget> [
